@@ -12,16 +12,17 @@ export default () => {
     const tokenManager = useSelector(state => state.user.token_manager)
     const jwtToken = tokenManager[tokenManager.length - 1 ];
     const dispatch = useDispatch();
-    const newCertificate = { name: "" };
+    const newCertificate = { name: "", description : "", expires_on : new Date().toISOString().split('T')[0] };
 
     const certificateView = () => {
         return certificates.map((cer,index) => (
             <div key={index}>
                 <input name="name" value={cer.name} onChange={(e) => handleArrayChangeEvent(e,certificates,index,setCertificates)} />
+                <input name="description" value={cer.description} onChange={(e) => handleArrayChangeEvent(e,certificates,index,setCertificates)} />
+                <input name="expires_on" type="date" value={cer.expires_on.split('T')[0]} onChange={(e) => handleArrayChangeEvent(e,certificates,index,setCertificates)} />
                <input type='button' value='remove' onClick={() => removeElementFromArray(certificates,index,setCertificates)} />
            </div>
           ))
-
     }  
 
     const handleSubmitCertificates = (event) => {
@@ -35,7 +36,6 @@ export default () => {
             }
         }
         )
-
     }
 
     return (

@@ -6,6 +6,7 @@ import { Redirect, Link } from "react-router-dom";
 import { StatusCodes } from "http-status-codes";
 
 export default () => {
+  
   const [userName, setUserName] = useState(useSelector((state) => state.user.username) || "");
   const [password, setPassword] = useState("");
   const [isLogged, setisLogged] = useState(false);
@@ -33,7 +34,6 @@ export default () => {
 
   return (
     <div>
-      { }
       {isLogged ? <Redirect to="/profile" /> : null}
       {<Link to="/signup">SignUp</Link>}
       <form onSubmit={handleSubmit}>

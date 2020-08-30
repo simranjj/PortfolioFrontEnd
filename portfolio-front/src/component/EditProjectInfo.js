@@ -7,7 +7,7 @@ import { handleArrayChangeEvent, removeElementFromArray, addElementToArray } fro
 
 export default () => {
 
-    const [projects, setProjects] = useState(useSelector(state => state.user.achievements));
+    const [projects, setProjects] = useState(useSelector(state => state.user.acedemic_project));
     const id = useSelector(state => state.user._id)
     const tokenManager = useSelector(state => state.user.token_manager)
     const jwtToken = tokenManager[tokenManager.length - 1 ];
@@ -36,7 +36,6 @@ export default () => {
             }
         }
         )
-
     }
 
     return (

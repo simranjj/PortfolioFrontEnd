@@ -7,7 +7,7 @@ const state = {
         email: "",
         username:"",
         password: "",
-        dob: "",
+        dob: new Date().toISOString(),
         description: "",
         github: "",
         linkedin: "",
@@ -34,14 +34,14 @@ const state = {
           {
             name: "",
             description: "",
-            time: ""
+            time: new Date().toISOString()
           }
         ],
         certificates: [
           {
             name: "",
             description: "",
-            expires_on:""
+            expires_on: new Date().toISOString()
           }
         ]
       },

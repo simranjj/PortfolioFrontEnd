@@ -12,7 +12,7 @@ export default () => {
     const tokenManager = useSelector(state => state.user.token_manager)
     const jwtToken = tokenManager[tokenManager.length - 1 ];
     const dispatch = useDispatch();
-    const newAchievement = { name: "", description: "", time: "" };
+    const newAchievement = { name: "", description: "", time: new Date().toISOString().split('T')[0] };
 
    
 
@@ -21,7 +21,7 @@ export default () => {
             <div key={index}>
                 <input name="name" value={ach.name} onChange={(e) => handleArrayChangeEvent(e, achievements, index, setAchievements)} />
                 <input name="description" value={ach.description} onChange={(e) => handleArrayChangeEvent(e, achievements, index, setAchievements)} />
-                <input name="time" value={ach.time} onChange={(e) => handleArrayChangeEvent(e, achievements, index, setAchievements)} />
+                <input name="time" type="date" value={ach.time.split('T')[0]} onChange={(e) => handleArrayChangeEvent(e, achievements, index, setAchievements)} />
                 <input type='button' value='remove' onClick={() => removeElementFromArray(achievements, index, setAchievements)} />
             </div>
         ))

@@ -7,13 +7,14 @@ import EditExperienceInfo from "./EditExperienceInfo";
 import EditAchievementsInfo from "./EditAchievementsInfo";
 import EditCertificateInfo from "./EditCertificateInfo"
 import EditSkillInfo from "./EditSkillInfo";
+import { Link } from "react-router-dom";
 
 export default () => {
 
 
     return (
         <div>
-            
+            {<Link to="/profile">Profile</Link>}
             <Tabs>
                 <TabList>
                     <Tab>Personal Details</Tab>
