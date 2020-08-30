@@ -6,7 +6,8 @@ export default (state = initialState, { type, payload }) => {
     case ACTION_TYPES.INIT_USER:
       return { ...state, user: payload };
     case ACTION_TYPES.UPDATE_USER:
-      return { ...state, ...state.user, ...payload };
+      Object.assign(state.user,payload);
+      return  state;
 
     default:
       return state;
