@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 import  store from './redux/store';
 import SignUp from './component/SignUp';
 import EditProfile from './component/EditProfile';
+import './index.css';
 
 function App() {
   return (
