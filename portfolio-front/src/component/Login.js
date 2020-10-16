@@ -34,7 +34,7 @@ export default () => {
 
   return (
     <div>
-      {isLogged ? <Redirect to="/profile" /> : null}
+      {isLogged ? <Redirect to="/editprofile" /> : null}
       {<Link to="/signup">SignUp</Link>}
       <form onSubmit={handleSubmit}>
         <label>
