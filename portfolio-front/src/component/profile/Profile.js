@@ -15,6 +15,15 @@ import 'bootstrap/dist/css/bootstrap.css';
 export default () => {
 
     const user = useSelector(state => state.user);
+    const avatar = {
+        name : user.name,
+        github : user.github,
+        linkedin : user.linkedin
+    }
+    const about = {
+        description : user.description,
+        email : user.email
+    }
     useEffect(() => {
         AOS.init({
             duration:1000,
@@ -25,8 +34,8 @@ export default () => {
     return (
         <div >
             <Nav/>
-           <Avatar/>
-           <About/>
+           <Avatar avatar={avatar}/>
+           <About about={about}/>
            <Skills/>
            <Resume/>
            <Projects/>

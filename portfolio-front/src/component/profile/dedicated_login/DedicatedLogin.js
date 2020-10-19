@@ -14,7 +14,7 @@ const DedicatedLogin = () => {
 
   useEffect(() => {
    autoLogin();
-  }, []);
+  });
 
   const autoLogin = () => {
     // fixed for creator's profile

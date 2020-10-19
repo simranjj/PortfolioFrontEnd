@@ -3,13 +3,13 @@ import "./style.css";
 
 import Typed from 'react-typed';
 
-const Avatar = () => {
+const Avatar = (props) => {
 
   
     return (
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" >
-      <h1>Simran Singh</h1>
+  <section id="hero" className="d-flex flex-column justify-content-center">
+    <div className="container" data-aos="zoom-in" >
+    <h1>{props.avatar.name}</h1>
       <p>
       <Typed
                     strings={['full stack developer', 
@@ -18,9 +18,9 @@ const Avatar = () => {
                     backSpeed={20}
                     loop
                 /></p>
-      <div class="social-links">
-        <a href="https://github.com/simranjj" class="github"><i class="bx bxl-github"></i></a>
-        <a href="https://www.linkedin.com/in/simranjeet-singh-7a2a58152/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      <div className="social-links">
+        <a href={props.avatar.github} className="github"><i className="bx bxl-github"></i></a>
+        <a href={props.avatar.linkedin} className="linkedin"><i className="bx bxl-linkedin"></i></a>
       </div>
     </div>
   </section>

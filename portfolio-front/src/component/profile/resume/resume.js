@@ -5,16 +5,16 @@ import "./style.css";
 const Resume = () => {
 
     return (
-        <section id="resume" class="resume">
-        <div class="container" data-aos="fade-up">
+        <section id="resume" className="resume">
+        <div className="container" data-aos="fade-up">
   
-          <div class="section-title">
+          <div className="section-title">
             <h2>Resume</h2>
             </div>
-          <div class="row">
-            <div class="col-lg-6">
-            <h3 class="resume-title">Summary</h3>
-            <div class="resume-item">
+          <div className="row">
+            <div className="col-lg-6">
+            <h3 className="resume-title">Summary</h3>
+            <div className="resume-item">
                 <h4>Simranjeet Singh</h4>
                 <h5>January 2019-August 2020</h5>
                 <p><em>Software developer holding Post-Graduate Diploma with internship experience in two  companies seeking an 
@@ -22,19 +22,19 @@ const Resume = () => {
                    MS SQL Server or MongoDB to build web-based applications.</em></p>
                    </div>
   
-              <h3 class="resume-title">Education</h3>
-              <div class="resume-item">
+              <h3 className="resume-title">Education</h3>
+              <div className="resume-item">
                 <h4>Post Graduate Diploma -Information Technology Solutions Diploma</h4>
                 <h5>January 2019-August 2020</h5>
                 <p><em>Humber College | Toronto, ON| Percentage: 89%</em></p>
                    </div>
-              <div class="resume-item">
+              <div className="resume-item">
                 <h4>Bachelor of Computer Science</h4>
                 <h5>August 2014-August 2018</h5>
                 <p><em>Panjab University | Chandigarh, India</em></p>
                   </div>
-                  <h3 class="resume-title">Personal Project</h3>
-              <div class="resume-item pb-0">
+                  <h3 className="resume-title">Personal Project</h3>
+              <div className="resume-item pb-0">
                 <h4>Portfolio Generator</h4>
                 <p><em>May 2020-June 2020</em></p>
                 <ul>
@@ -44,9 +44,9 @@ const Resume = () => {
                 </ul>
               </div>
             </div>
-            <div class="col-lg-6">
-              <h3 class="resume-title">Professional Experience</h3>
-              <div class="resume-item">
+            <div className="col-lg-6">
+              <h3 className="resume-title">Professional Experience</h3>
+              <div className="resume-item">
                 <h4>Software Developer</h4>
                 <h5>May 2020-August 2020</h5>
                 <p><em>Intransigence Technologies | Toronto, CA </em></p>
@@ -61,7 +61,7 @@ const Resume = () => {
                   <li>Worked  in an agile environment and demonstrated effective communication in weekly meetings with the client about the task assigned in JIRA.</li>
                 </ul>
               </div>
-              <div class="resume-item">
+              <div className="resume-item">
                 <h4>Software Developer Intern</h4>
                 <h5>August 2019-December 2019</h5>
                 <p><em>MyCondoLink | Toronto, CA</em></p>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./style.css";
 import { NavHashLink } from 'react-router-hash-link';
 import {  Link } from "react-router-dom";
@@ -32,46 +32,46 @@ const Nav = () => {
   // window.addEventListener('scroll',toggleActiveClassName);
 
   return (
-    <header id="header" class="d-flex flex-column justify-content-center">
-      <nav class="nav-menu">
+    <header id="header" className="d-flex flex-column justify-content-center">
+      <nav className="nav-menu">
         <ul>
           <NavHashLink
             smooth
             to="#hero"
             activeClassName="active"
             activeStyle={style}
-          ><i class="bx bx-home"></i> <span>Home</span></NavHashLink>
+          ><i className="bx bx-home"></i> <span>Home</span></NavHashLink>
            <NavHashLink
             smooth
             to="#about"
             activeClassName="active"
             activeStyle={style}
-          ><i class="bx bx-user"></i> <span>About</span></NavHashLink>
+          ><i className="bx bx-user"></i> <span>About</span></NavHashLink>
            <NavHashLink
             smooth
             to="#skills"
             activeClassName="active"
             activeStyle={style}
-          ><i class="bx bx-star"></i> <span>Skills</span></NavHashLink>
+          ><i className="bx bx-star"></i> <span>Skills</span></NavHashLink>
            <NavHashLink
             smooth
             to="#resume"
             activeClassName="active"
             activeStyle={style}
-          ><i class="bx bx-book-content"></i> <span>Resume</span></NavHashLink>
+          ><i className="bx bx-book-content"></i> <span>Resume</span></NavHashLink>
            <NavHashLink
             smooth
             to="#portfolio"
             activeClassName="active"
             activeStyle={style}
-          ><i class="bx bx-vector"></i> <span>Projects</span></NavHashLink>
+          ><i className="bx bx-vector"></i> <span>Projects</span></NavHashLink>
            <NavHashLink
             smooth
             to="#contact"
             activeClassName="active"
             activeStyle={style}
-          ><i class="bx bx-envelope"></i> <span>Contact</span></NavHashLink>
-         <Link to="/login"><i class="bx bx-edit"></i> <span>Edit</span></Link>
+          ><i className="bx bx-envelope"></i> <span>Contact</span></NavHashLink>
+         <Link to="/login"><i className="bx bx-edit"></i> <span>Edit</span></Link>
         </ul>
       </nav>
     </header>
