@@ -13,11 +13,11 @@
     padding: 0;
   }
   
-  .about .content ul li {
-    padding-bottom: 10px;
+  .about .content div {
+    padding-bottom: 20px;
   }
   
-  .about .content ul i {
+  .about .content div i {
     font-size: 20px;
     padding-right: 2px;
     color: #0563bb;

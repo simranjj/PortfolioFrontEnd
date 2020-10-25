@@ -5,15 +5,14 @@ import Typed from 'react-typed';
 
 const Avatar = (props) => {
 
-  
     return (
   <section id="hero" className="d-flex flex-column justify-content-center">
     <div className="container" data-aos="zoom-in" >
     <h1>{props.avatar.name}</h1>
       <p>
       <Typed
-                    strings={['full stack developer', 
-                    'can do anything!']}
+                    strings={['Full Stack Developer', 'Post Graduate Diploma - IT', 'Bachelor of Computer Science',
+                    'Can Do Anything !']}
                     typeSpeed={55}
                     backSpeed={20}
                     loop

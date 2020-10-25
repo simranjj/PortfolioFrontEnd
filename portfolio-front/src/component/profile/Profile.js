@@ -14,33 +14,34 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 export default () => {
 
-    const user = useSelector(state => state.user);
-    const avatar = {
-        name : user.name,
-        github : user.github,
-        linkedin : user.linkedin
-    }
-    const about = {
-        description : user.description,
-        email : user.email
-    }
-    useEffect(() => {
-        AOS.init({
-            duration:1000,
-        });
-      }, []);
 
+    let user = useSelector(state => state.user);
+    if (user.username === '')
+        user = JSON.parse(localStorage.getItem('user'))
+
+        useEffect(() => {
+            AOS.init({
+                duration: 1000,
+            });
+        }, []);
 
     return (
         <div >
-            <Nav/>
-           <Avatar avatar={avatar}/>
-           <About about={about}/>
-           <Skills/>
-           <Resume/>
-           <Projects/>
-           <Contact/>
-           <Footer/>
+            <Nav />
+            <Avatar avatar={{
+                name: user.name,
+                github: user.github,
+                linkedin: user.linkedin
+            }} />
+            <About about={{
+                description: user.description,
+                email: user.email
+            }} />
+            <Skills />
+            <Resume />
+            <Projects />
+            <Contact />
+            <Footer />
         </div>
     )
 }

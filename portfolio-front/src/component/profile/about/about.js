@@ -18,26 +18,26 @@ const About = (props) => {
           <div className="col-lg-4">
             <img src="assets/img/profile-img.jpg" className="img-fluid" alt="" />
           </div>
-          <div className="col-lg-8 pt-4 pt-lg-0 content">
+          <div className="col-lg-8 pt-4 pt-lg-0 content mt-3">
             <h3>Full Stack Developer.</h3>
-            <p className="font-italic">
-              I am a full stack developer with internship experience in two companies.
+            <p className="font-italic mb-4">
+            I am a full stack developer having internship experience in two companies with the
+             capability to deliver high-quality code and adapt to a new environment.
               </p>
-            <div className="row">
-              <div className="col-lg-6">
-                <ul>
-                  <li><i className="icofont-rounded-right"></i> <strong>Birthday:</strong> 26 October 1996</li>
-                  <li><i className="icofont-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
-                  <li><i className="icofont-rounded-right"></i> <strong>Phone:</strong> +1 416 720 0534</li>
-                  <li><i className="icofont-rounded-right"></i> <strong>City:</strong> Toronto, Canada</li>
-                </ul>
+            <div className="row pb-0">
+              <div className="col-lg-6 pb-0 pl-1">
+                <div><i className='bx bxs-chevron-right'></i><strong>Name:</strong> Simran Singh.</div>
+                <div><i className='bx bxs-chevron-right'></i><strong>Birthday:</strong> 26 October 1996.</div>
+                <div><i className='bx bxs-chevron-right'></i><strong>Website:</strong> www.example.com</div>
+                <div><i className='bx bxs-chevron-right'></i><strong>City:</strong> Toronto, Canada.</div>
               </div>
-              <div className="col-lg-6">
-                <ul>
-                  <li><i className="icofont-rounded-right"></i> <strong>Age:</strong> 23</li>
-                  <li><i className="icofont-rounded-right"></i> <strong>Degree:</strong> Post Graduate Diploma</li>
-                  <li><i className="icofont-rounded-right"></i> <strong>Email Id:</strong>{props.about.email}</li>
-                </ul>
+              <div className="col-lg-6 pb-0 pl-0 pr-4">
+                <div><i className='bx bxs-chevron-right'></i><strong>Email Id: </strong>{props.about.email}</div>
+                <div><i className='bx bxs-chevron-right'></i><strong>Languages:</strong> Java, Javascript, SQL.</div>
+                <div><i className='bx bxs-chevron-right'></i><strong>Education:</strong> Post Graduate Diploma.</div>
+              </div>
+              <div className="col-lg-12 pl-0">
+                <div> <i className='bx bxs-chevron-right'></i><strong>Internship:</strong> In Web Design &amp; Software Engineering.</div>
               </div>
             </div>
           </div>

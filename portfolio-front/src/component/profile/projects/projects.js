@@ -8,9 +8,10 @@ const Projects = () => {
             <div className="container " data-aos="fade-up">
                 <div className="section-title">
                     <h2>Projects</h2>
-                    <p>Few major projects using Java, HTML, CSS, Bootstrap, MERN stack and MS SQL Server.</p>
+                    <p>Few major projects using Java, HTML, CSS, Bootstrap, Node.js, Express.js, React.js,
+                         MongoDB and MS SQL Server.</p>
                 </div>
-                <div className="row portfolio-container justify-content-center" >
+                <div className="row portfolio-container justify-content-center mt-4" >
                     <div className="col-lg-4 col-md-6 portfolio-item filter-web ">
                         <div className="portfolio-wrap">
                             <img src="assets/img/portfolio/Portfolio-api.png" className="img-fluid" alt="" />
@@ -38,9 +39,9 @@ const Projects = () => {
                     </div>
                     <div className="w-100">
                     </div>
-                    <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div className="col-lg-4 col-md-6 portfolio-item filter-web ">
                         <div className="portfolio-wrap">
-                            <img src="assets/img/portfolio/netflix.png" className="img-fluid" alt="" />
+                            <img src="assets/img/portfolio/netflix_logo.jpg" className="img-fluid" alt="" />
                             <div className="portfolio-info">
                                 <h4>Netflix</h4>
                                 <p>Webservice</p>

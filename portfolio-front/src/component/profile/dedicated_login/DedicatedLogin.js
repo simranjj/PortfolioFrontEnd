@@ -13,22 +13,27 @@ const DedicatedLogin = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-   autoLogin();
-  });
-
-  const autoLogin = () => {
-    // fixed for creator's profile
+     // fixed for creator's profile
+     let mounted =true;
     let loginDetails = { username: DEDICATED_LOGIN_USERNAME, password: DEDICATED_LOGIN_PASSWORD };
     getUserDataByLoginApi(loginDetails).then((response) => {
       if (response.status === StatusCodes.OK) {
         const user = response.data.data;
         dispatch(initUserAction(user));
+        localStorage.setItem('user',JSON.stringify(user))
+        if ( mounted )
         setisLogged(true);
         return;
       }
+      if ( mounted )
       setisLogged(false);
     });
-  };
+    return function cleanup() {
+      mounted = false
+  }
+  });
+
+  
 
   return (
     <div>

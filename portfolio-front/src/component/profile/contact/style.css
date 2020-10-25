@@ -2,6 +2,7 @@
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact .info {
     width: 100%;
     background: #fff;
@@ -45,24 +46,24 @@
     color: #fff;
   }
   
-  .contact .php-email-form {
+  .contact .email-form {
     width: 100%;
     background: #fff;
   }
   
-  .contact .php-email-form .form-group {
+  .contact .email-form .form-group {
     padding-bottom: 8px;
   }
   
-  .contact .php-email-form .validate {
-    display: none;
+  .contact .email-form .validate {
+   
     color: red;
     margin: 0 0 15px 0;
     font-weight: 400;
     font-size: 13px;
   }
   
-  .contact .php-email-form .error-message {
+  .contact .email-form .error-message {
     display: none;
     color: #fff;
     background: #ed3c0d;
@@ -71,11 +72,11 @@
     font-weight: 600;
   }
   
-  .contact .php-email-form .error-message br + br {
+  .contact .email-form .error-message br + br {
     margin-top: 25px;
   }
   
-  .contact .php-email-form .sent-message {
+  .contact .email-form .sent-message {
     display: none;
     color: #fff;
     background: #18d26e;
@@ -84,7 +85,7 @@
     font-weight: 600;
   }
   
-  .contact .php-email-form .loading {
+  .contact .email-form .loading {
    
     
     text-align: center;
@@ -92,21 +93,21 @@
   }
   
   
-  .contact .php-email-form input, .contact .php-email-form textarea {
+  .contact .email-form input, .contact .email-form textarea {
     border-radius: 4px;
     box-shadow: none;
     font-size: 14px;
   }
   
-  .contact .php-email-form input {
+  .contact .email-form input {
     height: 44px;
   }
   
-  .contact .php-email-form textarea {
+  .contact .email-form textarea {
     padding: 10px 12px;
   }
   
-  .contact .php-email-form button[type="submit"] {
+  .contact .email-form button[type="submit"] {
     background: #0563bb;
     border: 0;
     padding: 10px 35px;
@@ -115,7 +116,7 @@
     border-radius: 50px;
   }
   
-  .contact .php-email-form button[type="submit"]:hover {
+  .contact .email-form button[type="submit"]:hover {
     background: #0678e3;
   }
   

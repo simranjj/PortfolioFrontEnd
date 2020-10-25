@@ -1,41 +1,42 @@
 import React from 'react';
 import "./style.css";
 
-
 const Skills = () => {
 
+
     return (
+
 
         <section id="skills" className="skills section-bg services">
             <div className="container" data-aos="fade-up">
 
                 <div className="section-title">
                     <h2>Skills</h2>
-                    <p>I have gone through few projects with different teammates gaining following skills over the time.</p>
+                    <p className="pb-3">I have gone through various projects with different teammates gaining the following skills over time.</p>
                 </div>
 
                 <div className="row skills-content">
 
                     <div className="col-lg-6">
-                   
+
                         <div className="progress">
                             <span className="skill">Java<i className="val">90%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" style={{width: "90%"}} role="progressbar"  aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar" style={{ width: "90%" }} role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div className="progress">
                             <span className="skill">Spring Boot<i className="val">75%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" style={{width: "75%"}} aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: "75%" }} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div className="progress">
                             <span className="skill">JavaScript <i className="val">80%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" style={{width: "80%"}} aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: "80%" }} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
@@ -45,26 +46,26 @@ const Skills = () => {
                         <div className="progress">
                             <span className="skill">HTML/CSS/Bootstrap<i className="val">90%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" style={{width: "90%"}} aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: "90%" }} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div className="progress">
                             <span className="skill">MERN <i className="val">80%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" style={{width: "80%"}} aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: "80%" }} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div className="progress">
                             <span className="skill">SQL <i className="val">85%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" style={{width: "85%"}} aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: "85%" }} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-lg-12  d-flex justify-content-around" data-aos="zoom-in" data-aos-delay="100">
+                    <div className="col-lg-12  d-flex justify-content-around mt-3" data-aos="zoom-in" data-aos-delay="100">
                         <div className="icon-box iconbox-red w-50">
                             <div className="icon">
                                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -83,15 +84,13 @@ const Skills = () => {
                                 <i className="bx bx-face"></i>
                             </div>
                             <h4><p>Soft Skills</p></h4>
-                            <p>Critical Thinking, Adaptability,<br/> Prioritizing and Managing tasks, Quick learner.</p>
+                            <p>Critical Thinking, Adaptability,<br /> Prioritizing and Managing tasks, Quick learner.</p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </section>
-
+        //    </ScrollableSection>
 
     );
 }

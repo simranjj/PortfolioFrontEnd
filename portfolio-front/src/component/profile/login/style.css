@@ -1,0 +1,15 @@
+#login {
+    background: rgb(135,36,78);
+    background: linear-gradient(309deg, rgba(135,36,78,0.619561203387605) 0%, rgba(158,43,157,0.7764239484856442) 49%, rgba(117,75,231,0.877264284620098) 100%);
+    height: 100vh;
+}
+#login a {
+    color: white;
+    text-decoration:underline; 
+}
+
+#login a:hover {
+    color: rgba(23, 59, 107, 0.62);
+    text-decoration:none; 
+}
+

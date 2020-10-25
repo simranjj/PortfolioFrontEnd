@@ -79,10 +79,11 @@
       color: #fff;
     }
   }
-  
+
   .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
     color: #fff;
     background: #0563bb;
+    border-radius: 50px;
   }
   
   .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
