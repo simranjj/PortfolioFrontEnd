@@ -134,7 +134,8 @@ const Contact = () => {
                             </Form.Row>
                             <Form.Row>
                                 <Form.Group as={Col} md="12" controlId="validationCustom03">
-                                    <Form.Control as="textarea" rows={5} name="feedback" onChange={handleChange} required />
+                                    <Form.Control as="textarea" rows={5} name="feedback" onChange={handleChange} placeholder="Message"
+                                    required />
                                     <Form.Control.Feedback type="invalid">
                                         Please write something for me.
             </Form.Control.Feedback>

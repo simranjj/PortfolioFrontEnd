@@ -24,7 +24,7 @@ const Resume = () => {
             </div>
             <h3 className="resume-title">Education</h3>
             <div className="resume-item">
-              <h4>Post Graduate Diploma -Information Technology Solutions Diploma</h4>
+              <h4>Post Graduate Diploma - Information Technology Solutions Diploma</h4>
               <h5>January 2019-August 2020</h5>
               <p><em>Humber College | Toronto, ON| Percentage: 89%</em></p>
             </div>

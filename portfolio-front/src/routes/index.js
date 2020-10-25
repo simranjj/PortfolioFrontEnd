@@ -8,7 +8,7 @@ import DedicatedLogin from '../component/profile/dedicated_login/DedicatedLogin'
 
 const Routes = () => {
   return (
-    <BrowserRouter forceRefresh={true}>
+    <BrowserRouter >
     <Switch>
     <Route exact path="/" component={DedicatedLogin} />
     <Route exact path="/login" component={Login} />
