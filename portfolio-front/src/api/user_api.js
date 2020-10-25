@@ -13,7 +13,7 @@ export const getUserDataByLoginApi = async (payload) => {
     method: "POST",
     url: `${PORTFOLIO_SERVER99}/authenticate`,
     data: payload,
-  });
+  })
 
   if (response.status === StatusCodes.OK) {
     return response;
@@ -21,15 +21,17 @@ export const getUserDataByLoginApi = async (payload) => {
 };
 
 export const createUserApi = async (payload) => {
-    const response = await axios({
+    try { 
+      const response = await axios({
       method: "POST",
       url: `${PORTFOLIO_SERVER99}/register`,
       data: payload,
-    });
-  
-    if (response.status === StatusCodes.OK) {
-      return response;
-    }
+    })
+    return response;
+
+  } catch(error){
+      return error.response;
+  }
   };
 
   export const updateUserApi = async (payload,param, token) => {
