@@ -27,7 +27,7 @@ const Projects = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 portfolio-item filter-web align-self-end">
                         <div className="portfolio-wrap "  >
-                            <img src="assets/img/portfolio/portfolio.png" className="img-fluid " alt="" />
+                            <img src="assets/img/portfolio/Portfolio.png" className="img-fluid " alt="" />
                             <div className="portfolio-info">
                                 <h4>Portfolio Generation - Front end</h4>
                                 <p>React.js, HTML, CSS, Bootstrap</p>
