@@ -16,7 +16,7 @@ const Projects = () => {
                         <div className="portfolio-wrap">
                             <img src="assets/img/portfolio/Portfolio-api.png" className="img-fluid" alt="" />
                             <div className="portfolio-info">
-                                <h4>Portfolio Generator - REST Api</h4>
+                                <h4>Portfolio - REST Api</h4>
                                 <p>Express.js, Node.js</p>
                                 <div className="portfolio-links">
                                     <a href="https://github.com/simranjj/Portfolio-Generator/tree/master/portfolio" 
@@ -29,7 +29,7 @@ const Projects = () => {
                         <div className="portfolio-wrap "  >
                             <img src="assets/img/portfolio/Portfolio.png" className="img-fluid " alt="" />
                             <div className="portfolio-info">
-                                <h4>Portfolio Generation - Front end</h4>
+                                <h4>Portfolio - Front end</h4>
                                 <p>React.js, HTML, CSS, Bootstrap</p>
                                 <div className="portfolio-links">
                                     <a href="https://github.com/simranjj/PortfolioFrontEnd/tree/master/portfolio-front" data-gall="portfolioDetailsGallery" data-vbtype="iframe" className="venobox" title="Portfolio Details"><i className="bx bx-link"></i></a>
