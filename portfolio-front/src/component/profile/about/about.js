@@ -25,19 +25,22 @@ const About = (props) => {
              capability to deliver high-quality code and adapt to a new environment.
               </p>
             <div className="row pb-0">
-              <div className="col-lg-6 pb-0 pl-1">
+              <div className="col-lg-6 pb-0">
                 <div><i className='bx bxs-chevron-right'></i><strong>Name:</strong> Simran Singh.</div>
-                <div><i className='bx bxs-chevron-right'></i><strong>Birthday:</strong> 26 October 1996.</div>
-                <div><i className='bx bxs-chevron-right'></i><strong>Website:</strong> www.example.com</div>
-                <div><i className='bx bxs-chevron-right'></i><strong>City:</strong> Toronto, Canada.</div>
-              </div>
-              <div className="col-lg-6 pb-0 pl-0 pr-4">
-                <div><i className='bx bxs-chevron-right'></i><strong>Email Id: </strong>{props.about.email}</div>
                 <div><i className='bx bxs-chevron-right'></i><strong>Languages:</strong> Java, Javascript, SQL.</div>
                 <div><i className='bx bxs-chevron-right'></i><strong>Education:</strong> Post Graduate Diploma.</div>
               </div>
-              <div className="col-lg-12 pl-0">
-                <div> <i className='bx bxs-chevron-right'></i><strong>Internship:</strong> In Web Design &amp; Software Engineering.</div>
+              <div className="col-lg-6 pb-0  pr-4">
+              <div><i className='bx bxs-chevron-right'></i><strong>Birthday:</strong> 26 October 1996.</div>
+                <div><i className='bx bxs-chevron-right'></i><strong>City:</strong> Toronto, Canada.</div>
+              </div>
+              <div className="col-lg-12 ">
+              <div><i className='bx bxs-chevron-right'></i><strong>Internship:</strong> In Web Design &amp; Software
+                <div className="d-block d-sm-none w-100 pb-0"></div> 
+                <span className="pl-4 pl-sm-0"> Engineering.</span>
+                </div>
+              <div><i className='bx bxs-chevron-right'></i><strong>Website:</strong> https://simran-singh.herokuapp.com/</div>
+                <div><i className='bx bxs-chevron-right'></i><strong>Email Id: </strong>{props.about.email}</div>
               </div>
             </div>
           </div>
