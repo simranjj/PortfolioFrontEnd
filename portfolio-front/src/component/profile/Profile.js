@@ -8,6 +8,7 @@ import Resume from './resume/resume';
 import Projects from './projects/projects';
 import Contact from './contact/contact';
 import Footer from './footer/footer';
+import { Redirect} from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -26,8 +27,10 @@ export default () => {
         }, []);
 
     return (
-        <div >
-            <Nav />
+        
+        <div>
+            {user ? <>
+            <Nav/>
             <Avatar avatar={{
                 name: user.name,
                 github: user.github,
@@ -42,7 +45,10 @@ export default () => {
             <Projects />
             <Contact />
             <Footer />
+            </>
+             :  <Redirect to="/" /> }
         </div>
+       
     )
 }
 
