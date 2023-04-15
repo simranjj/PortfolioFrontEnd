@@ -13,7 +13,7 @@ const About = () => {
 
         <div className="section-title">
           <h2>About</h2>
-          <p className="pb-4">{description} </p>
+          <p className="pb-4">{description}</p>
         </div>
 
         <div className="row">
@@ -23,26 +23,24 @@ const About = () => {
           <div className="col-lg-8 pt-4 pt-lg-0 content mt-3">
             <h3>Full Stack Developer.</h3>
             <p className="font-italic mb-4">
-              I am a full stack developer having internship experience in two companies with the
-              capability to deliver high-quality code and adapt to a new environment.
-              </p>
+              Highly motivated and detail-oriented professional with a combined 3+ years of practical experience in Software Development. Equipped with practical experience in frontend , backend, database and server technologies while working in an Agile environment.
+            </p>
             <div className="row pb-0">
               <div className="col-lg-6 pb-0">
-                <div><i className='bx bxs-chevron-right'></i><strong>Name:</strong> Simran Singh.</div>
-                <div><i className='bx bxs-chevron-right'></i><strong>Languages:</strong> Java, Javascript, SQL.</div>
-                <div><i className='bx bxs-chevron-right'></i><strong>Education:</strong> Post Graduate Diploma.</div>
+                <div><i className='bx bxs-chevron-right'></i><strong>Name:</strong> Simran Singh</div>
+                <div><i className='bx bxs-chevron-right'></i><strong>Languages:</strong> Javascript,Typescript,Ruby,SQL</div>
+                <div><i className='bx bxs-chevron-right'></i><strong>Education:</strong> Bachelor of Computer Science</div>
               </div>
               <div className="col-lg-6 pb-0  pr-4">
                 <div><i className='bx bxs-chevron-right'></i><strong>Birthday:</strong> 26 October 1996.</div>
-                <div><i className='bx bxs-chevron-right'></i><strong>City:</strong> Toronto, Canada.</div>
+                <div><i className='bx bxs-chevron-right'></i><strong>City:</strong> Waterloo, Canada</div>
               </div>
               <div className="col-lg-12 ">
-                <div><i className='bx bxs-chevron-right'></i><strong>Internship:</strong> In Web Design &amp; Software
+                <div><i className='bx bxs-chevron-right'></i><strong>Experience:</strong> Software Engineering &amp;
                 <div className="d-block d-sm-none w-100 pb-0"></div>
-                  <span className="pl-4 pl-sm-0"> Engineering.</span>
+                  <span className="pl-4 pl-sm-0"> DevOps</span>
                 </div>
-                <div><i className='bx bxs-chevron-right'></i><strong>Website:</strong> https://simran-singh.herokuapp.com/</div>
-                <div><i className='bx bxs-chevron-right'></i><strong>Email Id: </strong>{email}</div>
+                <div><i className='bx bxs-chevron-right'></i><strong>Email Id: </strong> simranjeet271@gmail.com</div>
               </div>
             </div>
           </div>

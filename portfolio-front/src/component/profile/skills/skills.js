@@ -3,10 +3,7 @@ import "./style.css";
 
 const Skills = () => {
 
-
     return (
-
-
         <section id="skills" className="skills section-bg services">
             <div className="container" data-aos="fade-up">
 
@@ -20,23 +17,23 @@ const Skills = () => {
                     <div className="col-lg-6">
 
                         <div className="progress">
-                            <span className="skill">Java<i className="val">90%</i></span>
+                            <span className="skill">Javascript | Typescript<i className="val">70%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" style={{ width: "90%" }} role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar" style={{ width: "70%" }} role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div className="progress">
-                            <span className="skill">Spring Boot<i className="val">75%</i></span>
+                            <span className="skill">Ruby on Rails | Spring Boot<i className="val">65%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" style={{ width: "75%" }} aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: "65%" }} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div className="progress">
-                            <span className="skill">JavaScript <i className="val">80%</i></span>
+                            <span className="skill">DevOps<i className="val">65%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar" role="progressbar" style={{ width: "80%" }} aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: "65%" }} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
@@ -44,14 +41,14 @@ const Skills = () => {
 
                     <div className="col-lg-6">
                         <div className="progress">
-                            <span className="skill">HTML/CSS/Bootstrap<i className="val">90%</i></span>
+                            <span className="skill">HTML | CSS | Bootstrap<i className="val">90%</i></span>
                             <div className="progress-bar-wrap">
                                 <div className="progress-bar" role="progressbar" style={{ width: "90%" }} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div className="progress">
-                            <span className="skill">MERN <i className="val">80%</i></span>
+                            <span className="skill">React | Redux <i className="val">80%</i></span>
                             <div className="progress-bar-wrap">
                                 <div className="progress-bar" role="progressbar" style={{ width: "80%" }} aria-valuemin="0" aria-valuemax="100"></div>
                             </div>

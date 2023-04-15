@@ -16,9 +16,9 @@ const Resume = () => {
             <h3 className="resume-title">Summary</h3>
             <div className="resume-item">
               <h4>Simran Singh</h4>
-              <p><em>Enthusiastic developer holding Post-Graduate Diploma with skills in Web Development and Software Engineering.</em></p>
+              <p><em>Highly motivated and detail-oriented professional with a combined 3+ years of practical experience in Software Development. Equipped with practical experience in frontend , backend, database and server technologies while working in an Agile environment.</em></p>
               <ul>
-                <li>Toronto, Canada.</li>
+                <li>Waterloo, Canada.</li>
                 <li>simranjeet271@gmail.com.</li>
               </ul>
             </div>
@@ -48,6 +48,19 @@ const Resume = () => {
           <div className="col-lg-6">
             <h3 className="resume-title">Professional Experience</h3>
             <div className="resume-item">
+
+                <h4>Full Stack Developer</h4>
+                <h5>May 2021-June 2023</h5>
+                <p><em>HealthIM |  Kitchener, ON, CA</em></p>
+                <ul>
+                  <li>Lead development solo and also collaborated with a team of developers on the various products, enabling the screening of patients with mental disorders and building reports for police organizations across Canada and parts of the USA to drive sound strategic decision-making. </li>
+                  <li>Maintained and upgraded existing desktop and web applications with JavaScript and Typescript using Electron.js, React.js and Redux. Used Ruby on Rails to create and improve API endpoints in Ruby on Rails interacting with PostgreSQL.
+                  </li>
+                  <li> Constructed the entire development environment using Fargate, Load Balancers, Aurora and various other services in AWS. Built CI/CD pipelines to host Docker containerised applications. Performed linux server maintenance  on a regular basis.
+                  </li>
+                    </ul>
+
+
               <h4>Software Developer</h4>
               <h5>May 2020-August 2020</h5>
               <p><em>Intransigence Technologies | Toronto, CA </em></p>
@@ -59,21 +72,9 @@ const Resume = () => {
                     of charts to the user.</li>
                 <li>Implemented  Kafka  Consumers  to  consume  messages  in  Spring  Boot  and  store  it  into MongoDB.</li>
                 <li>Performed Unit Testing using JUnit for service layer in Spring Boot application.</li>
-                <li>Worked  in an agile environment and demonstrated effective communication in weekly meetings with the client about the task assigned in JIRA.</li>
               </ul>
             </div>
-            <div className="resume-item">
-              <h4>Software Developer Intern</h4>
-              <h5>August 2019-December 2019</h5>
-              <p><em>MyCondoLink | Toronto, CA</em></p>
-              <ul>
-                <li>Created Unit Management System individually to keep track of inventory, get an insight into capital investment
-                     and generate ad-hoc reports.</li>
-                <li>Built application usingJava, JDBC, JavaFX, CSS, MS SQLServer.</li>
-                <li>Gathered and analyzed requirements of the client and professionally accepted feedback during weekly meetings.</li>
 
-              </ul>
-            </div>
           </div>
         </div>
 
