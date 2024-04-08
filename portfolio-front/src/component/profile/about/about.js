@@ -23,12 +23,12 @@ const About = () => {
           <div className="col-lg-8 pt-4 pt-lg-0 content mt-3">
             <h3>Full Stack Developer.</h3>
             <p className="font-italic mb-4">
-              Highly motivated and detail-oriented professional with a combined 3+ years of practical experience in Software Development. Equipped with practical experience in frontend , backend, database and server technologies while working in an Agile environment.
+            Dedicated professional with over 4 years of experience in software development across law enforcement, financial, and various other industries. Gained knowledge in frontend-backend development, database, and DevOps practices through active involvement in Agile projects, facilitating seamless collaboration between technical and non-technical teams.
             </p>
             <div className="row pb-0">
               <div className="col-lg-6 pb-0">
                 <div><i className='bx bxs-chevron-right'></i><strong>Name:</strong> Simran Singh</div>
-                <div><i className='bx bxs-chevron-right'></i><strong>Languages:</strong> Javascript,Typescript,Ruby,SQL</div>
+                <div><i className='bx bxs-chevron-right'></i><strong>Languages:</strong> Javascript, Typescript, SQL</div>
                 <div><i className='bx bxs-chevron-right'></i><strong>Education:</strong> Bachelor of Computer Science</div>
               </div>
               <div className="col-lg-6 pb-0  pr-4">
